@@ -1,24 +1,31 @@
-<h1>Current Weather Data</h1>
+<div class="heading">
 
-<ul>
+    <h1>CURRENT WEATHER DATA</h1>
 
-{{#each data}}
+</div>
 
-    <li>{{@key}} : {{this}}</li>
+<div class="info">
 
-{{/each}}
+    <ul>
 
-<p>{{message}}</p>
+        {{#each data}}
 
-</ul>
+        <li>{{@key}} : {{this}}</li>
 
-<form action="/" method="post">
-<label for ="city">Location: </label>
-<input type= "text" name = "city">
-<label for ="country">Country: </label>
-<input type= "text" name = "country">
-<input type= "submit" value = "submit">
+        {{/each}}
 
+        <p>{{message}}</p>
 
+    </ul>
+</div>
 
+<div class="form">
+
+    <form action="/" method="post">
+        <input class="inputbox" placeholder="Location" type="text" name="city">
+        <input class="inputbox" placeholder="Country" type="text" name="country">
+</div>
+<div class="box1">
+    <input class="submitbox" type="submit" value="Get Weather">
+</div>
 </form>

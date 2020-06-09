@@ -21,5 +21,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usamabinzubair/weatherapp.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/usamabinzubair/weatherapp/issues"
+  },
+  "homepage": "https://github.com/usamabinzubair/weatherapp#readme"
 }
